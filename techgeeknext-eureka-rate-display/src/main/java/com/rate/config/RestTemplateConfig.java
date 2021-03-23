@@ -1,4 +1,4 @@
-package com.rate;
+package com.rate.config;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;

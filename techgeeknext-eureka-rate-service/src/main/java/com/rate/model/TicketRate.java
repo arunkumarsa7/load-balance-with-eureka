@@ -1,4 +1,4 @@
-package com.rate;
+package com.rate.model;
 
 import java.math.BigDecimal;
 

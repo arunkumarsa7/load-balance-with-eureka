@@ -1,4 +1,4 @@
-package com.rate;
+package com.rate.controller;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -9,11 +9,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.rate.model.TicketRate;
+
 @RestController
 public class TicketRateController {
 
 	Logger logger = LoggerFactory.getLogger(TicketRateController.class);
-	
+
 	@RequestMapping("/rate/{stationId}")
 	public TicketRate getTicketRate(@PathVariable final int stationId) {
 
